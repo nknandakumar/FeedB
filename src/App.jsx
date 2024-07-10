@@ -4,7 +4,7 @@ import Main from "./components/Main";
 import Success from "./components/SubmitOk";
 const App=()=> {
   return (
-    <Router>
+    <Router  >
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/success" element={<Success />} />
