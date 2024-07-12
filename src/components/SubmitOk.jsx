@@ -37,7 +37,7 @@ const SubmitOk = () => {
   };
 
   const footerVariant = {
-    hidden: { y: "100vh", opacity: 1 },
+    hidden: { y: "100vh", opacity: 0 },
     visible: {
       y: 0,
       opacity: 1,
@@ -63,7 +63,7 @@ const SubmitOk = () => {
       <p className="flex items-center justify-center pt-20 bg-gradient-to-r from-slate-800 via-gray-400 to-neutral-800 bg-clip-text text-transparent animate-gradient text-2xl">
         Powered by Us--
         <motion.span whileHover={{ scale: 1.1 }} onClick={handleClick}>
-          <span className="rounded-full w-10 h-10 flex items-center justify-center border-2 ml-1 border-black">
+          <span className="rounded-full w-10 h-10 flex items-center justify-center bg-transparent border-transparent ml-1 gradient-border">
             <Users className="cursor-pointer text-xl text-black" />
           </span>
         </motion.span>

@@ -8,11 +8,11 @@
 
 .star {
   cursor: pointer;
-  color: #ccc;
+  color: #faf5f5;
 }
 
 .star.selected {
-  color: #fdd835; /* Change color for selected stars */
+  color: #f2c500; /* Change color for selected stars */
 }
 
 
@@ -33,4 +33,30 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+@keyframes gradient-border {
+  0% {
+    border-color: seashell;
+  }
+  25% {
+    border-color: gray;
+  }
+  50% {
+    border-color: pink;
+  }
+  75% {
+    border-color: rgb(209, 194, 209);
+  }
+  100% {
+    border-color: rgb(223, 147, 147);
+  }
+}
+
+.gradient-border {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 9999px; /* Ensures a fully rounded border */
+  animation: gradient-border 7s infinite;
 }
