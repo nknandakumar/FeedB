@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import FortImage from "../assets/Fort.jpg"; // Assuming the image name is 'Fort.jpg'
+import FortImage from "../assets/wave.gif"; // Assuming the image name is 'Fort.jpg'
 
 const Footer = () => {
   return (
@@ -63,7 +63,7 @@ const Footer = () => {
           <p className="text-gray-600">BCA</p>
         </div>
       </motion.div>
-      {/* Add your other content here, maintaining responsive layout */}
+     
     </footer>
   );
 };

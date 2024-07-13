@@ -60,3 +60,13 @@
   border-radius: 9999px; /* Ensures a fully rounded border */
   animation: gradient-border 7s infinite;
 }
+
+@font-face {
+  font-family: samarkan;
+  src: url(text.ttf);
+}
+
+.text{
+  font-family: samarkan;
+
+}
