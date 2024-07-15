@@ -10,8 +10,7 @@ import { motion } from "framer-motion";
 const SubmitOk = React.lazy(() => import("./SubmitOk"));
 
 const WORDS = ["Maratha", "   मराठा"];
-const API_URL =
-  "https://script.google.com/macros/s/AKfycbzvfaLI2rWGhnERj8SFLzMMRmgyyGDOSDllWWmSU5LZRjq2uQGSlq8Evf2GiIXs1N4TDA/exec";
+const API_URL = import.meta.env.VITE_API_ACCESS_KEY;
 
 const initialState = {
   feedback: "",
@@ -250,3 +249,4 @@ const Main = () => {
 };
 
 export default Main;
+ 
